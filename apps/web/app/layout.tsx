@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Shipitto - AI Industrial Website Builder",
   description: "Generate professional industrial websites in seconds.",
+  metadataBase: new URL("https://shipitto.com"),
 };
 
 export default function RootLayout({
